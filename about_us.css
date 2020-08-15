@@ -1,0 +1,188 @@
+/* start of about us.html */
+.upper {
+    background-image: url('wew.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 600px;
+    text-align: center;
+}
+
+.upper h2 {
+    color: white;
+    padding-top: 180px;
+    line-height: 2.4em;
+}
+
+.upper h4,  p {
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 55px;
+}
+.detail {
+    text-align: center;
+}
+#container {
+    border: solid 2px blue;
+    margin-top:55px ;
+    
+}
+#contents {
+    text-align: center;
+    text-decoration: underline;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
+#right {
+    border: solid 2px blue;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.left {
+    border: solid 2px green;
+    border-radius: 20px;
+}
+
+.advantages {
+    background-color: #4a7dc4;
+    border: 3px solid greenyellow;
+    border-radius: 20px;
+}
+.real {
+    text-decoration: underline;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.nav-link {
+    margin-left: 30px;
+}
+@media screen and  (max-width: 480px) {
+    .flex1 {
+        display: block;
+    }
+    .right {
+        margin-top: 25px;
+    }
+}
+/* end of about us.html */
+
+
+/*start of contact us.html */
+@media screen and (max-width: 480px) {
+    #flex2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .contact {
+        margin-bottom: 40px;
+    }
+    .main_text h2 {
+        text-decoration: underline;
+        margin-top: 40px;
+    }
+    .main_text h3 {
+        border: 2px solid yellow;
+    }
+}
+input {
+    display: block;
+    margin-top: 20%;
+    width: 100%;
+}
+#flex2 {
+    display: flex;
+    justify-content: space-around;
+    background-color:#111c3c;
+}
+.form1 {
+    border: 2px solid blue;
+    padding: 10%;
+    margin-top: 50%;
+}
+.main_text h2 {
+    margin-top: 20%;
+    color: white;
+}
+.main_text h3 {
+    color: white;
+}
+label {
+    color: white;
+}
+/*end of contact us.html */
+
+/* startof referral program.html */
+.referral {
+    background-image: url('Agentsigning.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.referral h1 {
+    color: white;
+    padding-top: 180px;
+}
+.referral h3 {
+    color:white;
+}
+.first_image {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 40px;
+}
+.second_image {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 20px;
+}
+.third_image {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 20px;
+}
+#flex3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+#deals {
+    text-align: center;
+    background-color: #111c3c;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+#deals li {
+    text-decoration: none;
+}
+@media screen and (max-width:480px) {
+    #flex3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 40px;
+    }
+    #deals {
+        padding-right: 40px;
+    }
+}
+/*end of referral program.html */
+.head {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
